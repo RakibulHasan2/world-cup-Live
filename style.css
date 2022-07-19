@@ -1,0 +1,164 @@
+/* font import */
+@import url('https://fonts.googleapis.com/css2?family=Podkova&display=swap');
+
+body{
+    font-family: 'Podkova', serif;
+}
+
+/* ---top section style---
+------------------------- */
+.top-div{
+    display: flex;
+    width: 1100px;
+    height: 500px;
+    background: #161616;
+    border-radius: 30px;
+    margin-top: 40px;
+    margin-left: 130px;
+    color:  #FFFFFF;
+}
+.top-info{
+    width: 400px;
+    height: 320px;
+    margin-left: 120px;
+    margin-top: 80px;
+}
+.top-info h1{
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 50px;
+}
+.live-button a{
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 18px;
+}
+.live-button{
+    width: 160px;
+    height: 40px;
+    border: none;
+    background: #DD0000;
+    border-radius: 8px; 
+}
+.greaterThan-icon{
+    font-size: 17px;
+    margin-left: 5px;
+}
+.top-banner img{
+    width: 450px;
+    height: 450px;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+/* -------------matches section style--------
+---------------------------------------------- */
+.all-matches{
+    display: flex; 
+}
+.matches-option{
+    width: 250px;
+    height: 250px;
+    margin-top: 50px;
+    margin-left: 135px;
+    background-color: black;
+    border-radius: 10px;
+}
+.three-button a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+.three-button{
+    background-color: white;
+    width: 200px;
+    height: 60px;
+    margin: 18px 15px 0px 25px;
+    border-radius: 10px;
+}
+.red-button{
+    background-color: #ca0000;
+}
+.red-button a{
+    color: white;
+}
+/* 9 matches div style */
+.matches{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    width: 850px;
+    height: 950px;
+    margin-top: 50px;
+    margin-left: 20px;
+}
+.match{
+    border: 1px solid rgb(225, 225, 237);
+    width: 250px;
+    height: 300px;
+}
+.match img{
+    width: 100%;
+}
+.transfer a{
+    text-decoration: none;
+    color: #161616;
+}
+.transfer{
+    width: 110px;
+    height: 30px;
+    background-color: white;
+    border: 1px solid #161616;
+    border-radius: 7px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.match p{
+   font-size: 18px;
+   margin-left: 10px;
+   font-weight: 600;
+}
+.icons{
+    display: flex;
+    margin-left: 10px;
+}
+.icons img{
+    position: relative;
+    width: 20px;
+    top: 5px; 
+}
+.icon{
+    padding: 8px;
+ }
+/*------------------ footer styles-------------
+------------------------------------------------ */
+.footer{
+    width: 1330px;
+    height: 400px;
+    background: #161616;
+}
+.footer h1{
+    width: 900px;
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    padding-top: 70px;
+    margin-left: 180px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    line-height: 3.8;
+}
+ .footer-info{
+    display: flex;
+    margin-left: 190px;
+}
+.info{
+    color: white;
+    padding: 25px;
+} 
+.social-icon{
+    margin-left: 590px;
+}
+.white-icon{
+ color: white; 
+ font-size: 20px;
+ padding: 5px;
+}
+
