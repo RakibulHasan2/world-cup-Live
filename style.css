@@ -323,10 +323,8 @@ body{
         height: 320px;
     }
     .footer-info{
-        padding-top: 15px;
         margin-left: 9%;
-        gap:6%; 
-        text-align: none; 
+        gap:6%;
         flex-wrap: wrap;
         width: 80%;
         height: 80px; 
