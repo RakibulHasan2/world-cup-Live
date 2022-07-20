@@ -344,6 +344,7 @@ body{
 
 
 /*--------->>>>>media query Mobile view style<<<<--------------- */
+
 @media screen and (max-width:688px){
 
     /*--------- top section  mobile view-------*/
@@ -381,7 +382,7 @@ body{
         margin-right: 10px; 
     }
     .live-button{
-        margin-left: 20%;
+        margin-left: 6%;
     }
     /* --------live matches section mobile view--- */
     .all-matches{
@@ -389,7 +390,7 @@ body{
        margin-bottom: 35%;
     }
     .matches-option{
-        margin-left: 25%;
+        margin-left: 20%;
         background-color: white;
     }
     .three-button{
