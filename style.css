@@ -382,15 +382,15 @@ body{
         margin-right: 10px; 
     }
     .live-button{
-        margin-left: 4%;
+        margin-left: 8%;
     }
     /* --------live matches section mobile view--- */
     .all-matches{
        flex-direction: column;
-       margin-bottom: 35%;
+       margin-bottom: 40%;
     }
     .matches-option{
-        margin-left: 15%;
+        margin-left: 25%;
         background-color: white;
     }
     .three-button{
