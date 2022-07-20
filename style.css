@@ -30,6 +30,13 @@ body{
     font-size: 50px;
     line-height: 50px;
 }
+.top-info p{
+    transition: font-size 3s;
+}
+.top-info p:hover{
+    margin-top: 0;
+    font-size: 20px;
+}
 .live-button a{
     text-decoration: none;
     color: #FFFFFF;
@@ -41,6 +48,11 @@ body{
     border: none;
     background: #DD0000;
     border-radius: 8px; 
+    transition:  width 2s, height 2s;
+}
+.live-button:hover{
+    width: 200px;
+    height: 70px;
 }
 .greaterThan-icon{
     font-size: 17px;
@@ -149,12 +161,17 @@ body{
 }
  .footer-info{
     display: flex;
-    margin-left: 190px;
+    padding-top: 15px;
+    column-gap: 35px;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 40px;
 }
-.info{
+.footer-info a{
+    text-decoration: none;
     color: white;
-    padding: 25px;  
-} 
+    font-size: 18px;
+}
 .social-icon{
     margin-left: 590px;
 }
@@ -197,3 +214,17 @@ body{
 .match-time h3{
     font-size: 22px;
 }
+#next-red{
+    background-color: #ca0000;
+}
+#next-red a{
+    color: white;
+}
+#reset-white{
+    background-color: white;
+}
+#reset-white a{
+    color: black;
+}
+
+ /* --------------------media query mobile view style--------------------- */
