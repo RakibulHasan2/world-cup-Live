@@ -1,4 +1,4 @@
-/*________________first website________________________ */
+/*_____________________________first website________________________ */
 
 /* font import */
 @import url('https://fonts.googleapis.com/css2?family=Podkova&display=swap');
@@ -95,7 +95,8 @@ body{
 .red-button a{
     color: white;
 }
-/* 9 matches div style */
+/*-------------- 9 matches div style----------
+---------------------------------------------- */
 .matches{
     display: grid;
     grid-template-columns: repeat(3,1fr);
@@ -142,6 +143,21 @@ body{
 .icon{
     padding: 8px;
  }
+ /* ------------------view all button-----------
+ ------------------------------------------------ */
+.view-button{
+    height: 40px ;
+    width:120px;
+    background: #DD0000;
+    border-radius: 5px;
+    border: none;
+    display: none; 
+}
+.view-button a{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+}
 /*------------------ footer styles-------------
 ------------------------------------------------ */
 .footer{
@@ -154,9 +170,9 @@ body{
     color: white;
     text-align: center;
     font-size: 40px;
-    padding-top: 70px;
-    margin-left: 180px;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+     padding-top: 70px;
+     margin-left: 180px; 
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1); 
     line-height: 3.8;
 }
  .footer-info{
@@ -181,7 +197,7 @@ body{
  padding: 5px;
 }
 
-/*________________2nd website________________________ */
+/*______________________________________2nd website______________________________ */
 
 .six-match-box{
     display: grid;
@@ -227,7 +243,7 @@ body{
     color: black;
 }
 
- /* --------------------media query tablet view style--------------------- */
+ /*--------->>>>>media query tablet view style<<<<--------------- */
 @media screen and (min-width:689px) and  (max-width:992px){
 
     /*--------- top section  tablet view-------*/
@@ -296,6 +312,11 @@ body{
         margin-left: 1%;
         padding: 20px 17px 20px 40px;
     }
+    /* -------showing view button to tablet view------ */
+    .view-button{
+        display: block; 
+        margin-left: 46%;
+    }
     /* -------footer section tablet view------ */
     .footer{
         width: 100%;
@@ -303,19 +324,123 @@ body{
     }
     .footer-info{
         padding-top: 15px;
-        column-gap: 2%;
-        text-align: right;
-        flex: wrap;
+        margin-left: 9%;
+        gap:6%; 
+        text-align: none; 
+        flex-wrap: wrap;
+        width: 80%;
+        height: 80px; 
+    }
+    .footer h1{
+        width: 85%;
+        padding-top: 0;
+        margin-left: 7%;
+        line-height: 3;
+    }
+    .social-icon{
+        margin-top: 0px;
+        margin-left: 44%;
+    }
+}
+
+
+
+/*--------->>>>>media query Mobile view style<<<<--------------- */
+@media screen and (max-width:688px){
+
+    /*--------- top section  mobile view-------*/
+    .top-div{
+        flex-direction: column;
+        width: 95%;
+        margin-right: 1.8%;
+        margin-left: 2%;
+        height : 620px
+    }
+    .top-info{
+        width: 50%;
+        margin: 5% auto;
+        height: 350px;
+    }
+    .top-info h1{
+        text-align: center;
+        font-weight: 700;
+        font-size: 25px;
+        line-height: 30px;
+    }
+    .top-info p{
+        text-align: center;
+        font-weight: 700;
+        font-size: 12px;
+        line-height: 20px;
+    }
+    .top-banner img{
+        position: relative;
+        top: 1.3%;
+        left: 17%;
+        width: 60%;
+        height: 300px;
+        margin-top: 0; 
+        margin-right: 10px; 
+    }
+    .live-button{
+        margin-left: 20%;
+    }
+    /* --------live matches section mobile view--- */
+    .all-matches{
+       flex-direction: column;
+       margin-bottom: 35%;
+    }
+    .matches-option{
+        margin-left: 25%;
+        background-color: white;
+    }
+    .three-button{
+        border: 1px solid rgb(137, 132, 132);
+    }
+    .matches, .six-match-box{
+        grid-template-columns: repeat(1,1fr);
+        width: 100%;
+        height: 100%;
+        margin-top: 0;
+        margin-left: 5%;
+        row-gap: 0.5%;
+    }
+    .match p{
+        font-size: 18px;
+     }
+     .match{
+        width: 90%;
+        height: 100%;
+    }
+    .germany-vs-france{
+        width: 80%;
+        margin-left: 1%;
+        padding: 20px 17px 20px 40px;
+    }
+    .two-images{
+        margin-left: 20%;
+    }
+    /* -------footer section mobile view------ */
+    .footer{
+        width: 100%;
+        height: 600px;
+    }
+    .footer-info{
+        flex-direction: column;
+        padding-top: 15px;
+        row-gap: 35px;
+        text-align: center;
+        justify-content: center;
+        margin-bottom: 40px;
     }
     .footer h1{
         width: 70%;
         padding-top: 0;
         margin-left: 15%;
         border-bottom: 1px solid rgba(255, 255, 255, 0.1);
-        line-height: 3;
+        line-height: 3.8;
     }
     .social-icon{
-        margin-top: 0px;
-        margin-left: 44%;
+        margin-left: 42%;
     }
 }
