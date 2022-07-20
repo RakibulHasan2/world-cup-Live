@@ -382,7 +382,7 @@ body{
         margin-right: 10px; 
     }
     .live-button{
-        margin-left: 6%;
+        margin-left: 4%;
     }
     /* --------live matches section mobile view--- */
     .all-matches{
@@ -390,7 +390,7 @@ body{
        margin-bottom: 35%;
     }
     .matches-option{
-        margin-left: 20%;
+        margin-left: 15%;
         background-color: white;
     }
     .three-button{
